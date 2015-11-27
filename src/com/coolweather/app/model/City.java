@@ -10,7 +10,7 @@ public class City {
 		return id;
 	}
 	
-	public void setId(){
+	public void setId(int id){
 		this.id=id;
 	}
 	
@@ -34,7 +34,7 @@ public class City {
 		return provinceId;
 	}
 	
-	public void setProvinceId(){
+	public void setProvinceId(int provinceId){
 		this.provinceId=provinceId;
 	}
 
