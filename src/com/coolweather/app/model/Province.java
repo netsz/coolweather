@@ -18,7 +18,7 @@ public class Province {
 		return provinceName;
 	}
 	
-	public void setProvinceName(String ProvinceName){
+	public void setProvinceName(String provinceName){
 		this.provinceName=provinceName;
 	}
 	
@@ -26,7 +26,7 @@ public class Province {
 		return provinceCode;
 	}
 	
-	public void setProvinceCode(String ProvinceCode){
+	public void setProvinceCode(String provinceCode){
 		this.provinceCode=provinceCode;
 	}
 	

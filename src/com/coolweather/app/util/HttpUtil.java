@@ -40,7 +40,7 @@ public class HttpUtil {
 						listener.onError(e);
 					}
 				} finally {
-					if (connection == null) {
+					if (connection != null) {
 						connection.disconnect();
 					}
 				}

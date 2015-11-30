@@ -86,6 +86,9 @@ public class CoolWeatherDB {
 			} while(cursor.moveToNext());
 		}
 		
+		if (cursor != null) {
+			cursor.close();
+		}
 		return list;
 	}
 	
@@ -126,6 +129,9 @@ public class CoolWeatherDB {
 			
 			
 		}
+		if (cursor != null) {
+			cursor.close();
+		}
 		return list;
 	}
 	
@@ -161,6 +167,9 @@ public class CoolWeatherDB {
 				county.setCityId(cityId);
 				list.add(county);
 			} while (cursor.moveToNext());
+		}
+		if (cursor != null) {
+			cursor.close();
 		}
 		return list;
 	}
